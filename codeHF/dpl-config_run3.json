@@ -62,7 +62,7 @@
         "bz": "5",
         "doPvRefit": "false",
         "doCutQuality": "true",
-        "useIsGlobalTrack": "false",
+        "useIsGlobalTrack": "true",
         "tpcNClsFound": "71",
         "pTBinsTrack": {
             "values": [
@@ -997,7 +997,7 @@
         "cfgCutPt": "0.2",
         "d_selectionFlagD0": "0",
         "d_selectionFlagD0bar": "0",
-        "cutYCandMax": "1.0",
+        "cutYCandMax": "0.8",
         "pTBins": {
             "values": [
                 "0",
