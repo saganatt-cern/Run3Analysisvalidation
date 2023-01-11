@@ -1261,9 +1261,9 @@
         "processMc": "true"
     },
     "hf-task-flow": {
-        "ccdb-path": "Users\/k\/kgajdoso\/efficiency",
-        "ccdb-url": "http:\/\/ccdb-test.cern.ch",
-        "ccdb-date": "20221025",
+        "ccdbPath": "Users\/k\/kgajdoso\/efficiency",
+        "ccdbUrl": "http:\/\/ccdb-test.cern.ch",
+        "ccdbDate": "20221103",
         "zVertexMax": "10.0",
         "etaTrackAssocMax": "0.8",
         "ptTrackAssocMin": "0.2",
