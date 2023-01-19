@@ -9,15 +9,17 @@ import datetime as dt
 production = "LHC20f4a"
 
 # input file with efficiency histograms extracted beforehand
-inputfile = ROOT.TFile("efficiency.root", "read")
+inputfile = ROOT.TFile("MCclosure/macrosEfficiency/efficiency.root", "read")
 
 # create a TList out of the efficiency histograms from the input file
 mylist = ROOT.TList()
 mylist.SetName("efficiency_histograms")
 
 histo = inputfile.Get("efficiency");
+histoHF = inputfile.Get("HFefficiency");
 
 mylist.Add(histo)
+mylist.Add(histoHF)
 
 # # Let's produce the CCDB object
 ccdb_path = "Users/k/kgajdoso/efficiency"
